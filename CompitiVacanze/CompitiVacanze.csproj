@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library5_2\LibraryN5_2.csproj" />
+    <ProjectReference Include="..\LibraryN3\LibraryN3.csproj" />
+    <ProjectReference Include="..\LibraryN4.2\LibraryN4_2.csproj" />
+    <ProjectReference Include="..\LibraryN4_4\LibraryN4_4.csproj" />
+  </ItemGroup>
+
+</Project>
